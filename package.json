@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "tsc",
-    "watch": "npm run prepare -- --watch"
+    "watch": "npm run prepare -- --watch",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "lint": "eslint \"src/**/*.{ts,js}\""
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,12 @@
   },
   "devDependencies": {
     "@citizenfx/client": "^2.0.6551-1",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   },
   "files": [
