@@ -1,0 +1,37 @@
+{
+  "name": "@r3ps4j/i18next-cfx-backend",
+  "version": "1.0.0",
+  "description": "Backend for FXServer",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc",
+    "watch": "npm run prepare -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r3ps4J/i18next-cfx-backend.git"
+  },
+  "keywords": [
+    "i18next",
+    "i18next-backend",
+    "citizenfx"
+  ],
+  "author": "r3ps4J",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/r3ps4J/i18next-cfx-backend/issues"
+  },
+  "homepage": "https://github.com/r3ps4J/i18next-cfx-backend#readme",
+  "dependencies": {
+    "i18next": "^23.2.11"
+  },
+  "devDependencies": {
+    "@citizenfx/client": "^2.0.6551-1",
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
