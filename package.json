@@ -1,5 +1,5 @@
 {
-  "name": "@r3ps4j/i18next-cfx-backend",
+  "name": "@r3ps4j/i18next-fxserver-backend",
   "version": "1.0.0",
   "description": "Backend for FXServer",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/r3ps4J/i18next-cfx-backend.git"
+    "url": "git+https://github.com/r3ps4J/i18next-fxserver-backend.git"
   },
   "keywords": [
     "i18next",
@@ -23,9 +23,9 @@
   "author": "r3ps4J",
   "license": "LGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/r3ps4J/i18next-cfx-backend/issues"
+    "url": "https://github.com/r3ps4J/i18next-fxserver-backend/issues"
   },
-  "homepage": "https://github.com/r3ps4J/i18next-cfx-backend#readme",
+  "homepage": "https://github.com/r3ps4J/i18next-fxserver-backend#readme",
   "dependencies": {
     "i18next": "^23.2.11"
   },
